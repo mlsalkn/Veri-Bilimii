@@ -1,0 +1,6 @@
+print("\n--- SORU 9: Numpy 1 ---")
+np_dizi = np.random.randint(0, 51, 10)
+print(f"Numpy dizisi: {np_dizi}")
+print(f"Ortalama: {np.mean(np_dizi):.2f}")
+print(f"Standart sapma: {np.std(np_dizi):.2f}")
+print(f"En büyük değer: {np.max(np_dizi)}")
